@@ -424,9 +424,9 @@ def kepmask_main():
     parser.add_argument('--plotfile', default='kepmask.png',
                         help='name of output PNG plot file', type=str)
     parser.add_argument('--imin', default=None, type=float,
-                        help='minimum of image intensity scale [e-]')
+                        help='minimum image intensity scale [e-/s]')
     parser.add_argument('--imax', default=None, type=float,
-                        help='maximum of image intensity scale [e-]')
+                        help='maximum image intensity scale [e-/s]')
     parser.add_argument('--iscale', default='linear',
                         help='type of image intensity scale',
                         type=str,
